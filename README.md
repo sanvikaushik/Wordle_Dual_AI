@@ -22,35 +22,42 @@ This repository contains a full-stack application for solving dual Wordle puzzle
 Navigate to the `wordle_solver_api` directory and run:
 
 ```bash
-$ cd wordle_solver_api
-$ bundle install
-
+cd wordle_solver_api
+bundle install
+```
 
 #### Step 2: Start the Backend Server
-$ rails server
+```bash
+rails server
+```
 By default, the backend will be available at http://localhost:5000
 
 
 ### 2. Frontend (React)
 ####  Step 1: Install Node Dependencies
 Navigate to the react-frontend directory and run
-
-$ cd react-frontend
-$ npm install
-
+```bash
+cd react-frontend
+npm install
+```
 #### Step 2: Start the Frontend Server
 Run the following command to start the development server:
-$ npm start
+```bash
+npm start
+```
 This will open the React app in your default browser at http://localhost:3000
 
 ## Running Tests
-Test Hard Word Pairs:
+#### Test Hard Word Pairs:
 Run the following command in the backend directory to test hard word pairs:
-$ ruby test_hard_words.rb
+```bash
+ruby test_hard_words.rb
+```
 
-Test Random Word Pairs:
+#### Test Random Word Pairs:
 Run the following command in the backend directory to test random word pairs:
-$ruby test_random_words.rb
-
+```bash
+ruby test_random_words.rb
+```
 
 
